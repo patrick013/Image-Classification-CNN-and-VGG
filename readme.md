@@ -22,6 +22,8 @@ Obviously, VGG wins! My model to some degress is overfitted, which means the acc
 1. Batch Normalization
 2. Dropout
 3. Regularization
+4. Find more data
+5. Simplify model
 
 ### Big Challenge - Loss does not change
 
