@@ -15,4 +15,4 @@ Obviously, VGG wins! My model to some degress is overfitted, which means the acc
 
 ## Big Challenge - Loss does not change
 
-The biggest challenge that I met was that there was not a sign that the loss tended to decrease at all after 10 epochs when I was using VGG network. I spent whole night to fix this problem and tried many suggestions online, such as check the dataset labels, reducing the networks and so on. However, it didn't work at all. I finnaly fixed this problem by using SGD optimizer instead of adam. 
+The biggest challenge that I met was that there was not a sign that the loss tended to decrease at all after 10 epochs when I was using VGG network. I spent whole night to fix this problem and tried many suggestions online, such as check the dataset labels, reducing the networks and so on. However, it didn't work at all. One of the reason was that I forgot to convert y label to one hot array.
