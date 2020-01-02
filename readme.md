@@ -1,5 +1,7 @@
 # Image Classification - Cat or Dog Kaggle Competition
 
+Author: Patrick Ruan
+
 ![catanddog](https://miro.medium.com/max/2844/1*hCxU4nK6ulpnwhSpgWiPPg.png)
 
 This is a image classification project from [Cat of Dog Kaggel competition](https://www.kaggle.com/c/dogs-vs-cats/overview/description). In this project, I applied convolutional neural network for image classification. And the end, I also applied VGG-16 convolutional neural network by using transfer learning. VGG-16 is a popular deep learning neural network in computer vision, proposed by K. Simonyan and A. Zisserman from the University of Oxford in the paper “[Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)”. The structrue of VGG 16 network is following:
