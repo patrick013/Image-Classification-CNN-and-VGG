@@ -5,10 +5,7 @@ rootPath = os.path.split(curPath)[0]
 sys.path.append(rootPath)
 
 import tensorflow as tf
-
-
-IMAGE_WIDTH=124
-IMAGE_HEIGHT=124
+from .src.setting import *
 
 if __name__== "__main__":
 
@@ -18,8 +15,7 @@ if __name__== "__main__":
     image = tf.image.resize(image, [IMAGE_WIDTH, IMAGE_HEIGHT])
     image /= 255.0
 
-    model=tf.keras.models.Model()
-    model.load('.vggmodel/saved_model.pb')
+    model=tf.keras.models.load_model()
     labels={0:'cat',1:'dog'}
     y=model.predict_generator(image)
     index=0
