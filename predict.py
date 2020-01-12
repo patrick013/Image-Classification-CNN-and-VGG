@@ -24,4 +24,4 @@ if __name__== "__main__":
         index=1
     else:
         index=0
-    print("This image is a "+ IDX_TO_LABELS[index])
+    print("This image shows a "+ IDX_TO_LABELS[index])
