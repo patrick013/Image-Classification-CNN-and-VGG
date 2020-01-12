@@ -5,3 +5,5 @@ NUM_TRAIN=21000
 BATCH_SIZE=64
 DIRECTORY_DATASET="../dataset/dataset/"
 DIRECTORY_DATASET_SEPERATED='../dataset/dataset_seperated/'
+
+IDX_TO_LABELS = {0: 'cat', 1: 'dog'}
